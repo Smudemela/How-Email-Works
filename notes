@@ -1,7 +1,58 @@
-## What is Email
-Email is a quick and convenient way to write and send someone a message. We can just write someone a message using our computer tablet or smartphone.
+## What is Email?
+Email is a quick and convenient way to write and send someone a message. 
+We can just write someone a message using our computer tablet or smartphone.
 
-### How does an Email Get From One Place to Another.
+### How does an Email Get From One Place to Another?
 ---
 Email is received and sent by using a couple of different protocols.
+Protocols are just a set of rules that a service follows in order to function. 
+These email protocols are IMAP, POP 3 and SMTP. 
 
+protocol - a set of rules that govern data communication between devices
+
+SMTP - Simple Mail Transfer Protocol
+
+IMAP - Internet Mail Access Protocol
+
+POP3 - Post Office Protocol 3 (IMAP alternate)
+
+1. The sender sends a email to the email client.
+2. Reaches the SMTP server, then it goes the DNS server. DNS server translates domain names into IP addresses, enabling email routing.
+3. Spam & Policy checks
+4. MX server gives route and mail goes to the domain
+5. Gets to inbox of user 
+6. POP3 or IMAP downloads what's in your inbox to your
+device (IMAP is prefered)
+7. user see the mail and reads
+
+### What Do These Protocols Do?
+
+SMTP: 
+    - used for sending email
+
+    - validates the message and
+      the attachments to make sure it's in
+      compliance with the email policy 
+
+IMAP: 
+    - used for receiving email 
+
+    - downloads what's in your inbox to your
+      device but it also downloads and syncs 
+      your entire email folder structure so
+      whatever is in your inbox sent items
+
+POP3: 
+    - only downloads the contents of your
+      inbox folder which is where your email is
+
+
+
+### Ways to Open Email.
+
+- Email Client
+    Outlook
+    Apple Mail
+    Thunderbird
+
+- Web browser
