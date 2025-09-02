@@ -8,7 +8,7 @@ Email is received and sent by using a couple of different protocols.
 Protocols are just a set of rules that a service follows in order to function. 
 These email protocols are IMAP, POP 3 and SMTP. 
 
-protocol - a set of rules that govern data communication between devices
+Protocol - a set of rules that govern data communication between devices
 
 SMTP - Simple Mail Transfer Protocol
 
