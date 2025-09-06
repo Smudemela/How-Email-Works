@@ -151,4 +151,3 @@ Email delivery relies on several protocols and sets of rules that show how data 
 ---
 *Last Updated: September 2025*
 
-*Author: Sri Mudemela*
