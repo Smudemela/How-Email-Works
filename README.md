@@ -61,7 +61,7 @@ Email delivery relies on several protocols and sets of rules that show how data 
 
 - **Attachments:** Emails can include files, images, and documents.
 - **Spam Filters:** Most email systems automatically filter out unwanted or suspicious emails.
-- **Security:** Many email services use encryption (SSL/TLS) to protect your
+- **Security:** Many email services use encryption (SSL/TLS) to protect your emails.
 
 ---
 
