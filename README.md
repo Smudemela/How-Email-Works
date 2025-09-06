@@ -75,48 +75,6 @@ Email delivery relies on several protocols and sets of rules that show how data 
 
 ---
 
-## Email Security Measures
-
-### SSL/TLS Encryption
-- **What it is:** Secure Sockets Layer/Transport Layer Security
-- **How it works:**
-  - Creates a private, encrypted connection between email servers
-  - Like putting your letter in a locked box that only the recipient can open
-  - Shows up as "https://" and a padlock icon in your browser
-- **Why it matters:** Prevents others from reading your emails while in transit
-
-### SPF (Sender Policy Framework)
-- **What it is:** Email authentication method
-- **How it works:**
-  - Lists which servers are allowed to send email from your domain
-  - Like having an approved list of post offices that can send mail with your return address
-  - Example SPF record: `v=spf1 include:_spf.google.com ~all`
-- **Why it matters:** Stops scammers from pretending to be you
-
-### DKIM (DomainKeys Identified Mail)
-- **What it is:** Digital signature for emails
-- **How it works:**
-  - Adds an invisible digital signature to every email
-  - Recipient's server verifies the signature
-  - Like a wax seal on a medieval letter
-- **Why it matters:** Proves emails haven't been tampered with during transit
-
-### 2FA (Two-Factor Authentication)
-- **What it is:** Two-step verification process
-- **How it works:**
-  - Something you know (password)
-  - Something you have (phone, security key)
-  - Like needing both a key and a PIN to open a safe
-- **Why it matters:** Even if someone steals your password, they can't access your account
-
-### Together, these create multiple layers of security:
-1. SSL/TLS protects the content
-2. SPF verifies the sender
-3. DKIM ensures message integrity
-4. 2FA secures account access
-
----
-
 ## Conclusion & Future Trends
 
 ### Key Takeaways
